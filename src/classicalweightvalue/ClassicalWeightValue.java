@@ -6,6 +6,7 @@ class ClassicalWeightValue {
     }
 
     static int knapSack(int W, int wt[], int val[], int n) {
+        //
         if (n == 0 || W == 0) {
             return 0;
         }
